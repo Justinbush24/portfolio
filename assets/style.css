@@ -1,29 +1,7 @@
 html {
   background-color: #a4bcb4;
   background-size: auto;
-
 }
-
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 500px;
-  color: white;
-  border-radius: 10px;
-}
-
-.navBar  {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-.navBar #myLinks {
-  display: block;
-}
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -31,78 +9,94 @@ ul {
   overflow: hidden;
   background-color: #53686c;
   font-weight: bold;
-
+  text-align: center;
 }
-
 li a {
   float: left;
-  display: block;
-  padding: 14px 16px;
+  display: inline;
+  padding: 16px;
   background-color: #53686c;
   color: white;
   text-decoration: none;
-
+  align-items: center;
 }
-
 li a:hover {
   background-color: #21686c;
 }
-
 .icon {
   display: none;
   background-color: #21686c;
 }
 
 
-
-@media screen and (max-width: 600px) {
-  
+ @media screen and (max-width: 600px) {
   .navBar a.icon {
     float: right;
     display: block;
-
   }
-  
-  #myLinks {
+}
+@media screen and (max-width: 600px) {
+  .myLinks {
     display: none;
   }
-
-  
-  .navBar .myLinks {position: relative;}
-  .navBar .myLinks a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .navBar .myLinks a {
-    float: none;
+} 
+@media screen and (max-width: 600px) {
+  .navBar a.icon {
+    float: right;
     display: block;
-    text-align: left;
+  }
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    border-radius: 10px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  #myLinks {
+    display: none;
+  
+  }
+  .navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  li a {
+    width: 25%;
+
+    
   }
 }
-
-
-
-
-
 .content {
-  display: flex;
-  flex-wrap: nowrap;
   background-color: #c7dce2;
 }
-
+h1 {
+  text-align: center;
+}
 #aboutMe {
   font-weight: bolder;
   text-size-adjust: 25%;
 }
-
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -111,26 +105,20 @@ li a:hover {
   text-decoration: none;
   border-radius: 25%;
 }
-
 .fa:hover {
   opacity: 0.7;
   background-color: #21686c;
-  
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
-
 .fa-linkedin {
   background: #0e76a8;
   color: white;
 }
-
 .fa-envelope {
   background:#8a9ca1;
   color: white;
-
 }
 
