@@ -7,73 +7,52 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets\reset.css">
     <link rel="stylesheet" href="assets\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header>
+            <ul class="navBar">
+                <li><a href="https://www.w3schools.com/">HOME</a></li>
+                <li><a class="myLinks" href="https://www.w3schools.com/">ABOUT ME</a></li>
+                <li><a class="myLinks" href="https://www.w3schools.com/">PROJECTS</a></li>
+                <li><a class="myLinks" href="https://www.w3schools.com/">CONTACT</a></li>
+                <li></li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                    </li>
+   
 
-        <header>
-            <ul>
-                <li><a class="active" href="https://www.w3schools.com/">ABOUT ME</a></li>
-                <li><a href="https://www.w3schools.com/">PROJECTS</a></li>
-                <li><a href="https://www.w3schools.com/">CONTACT</a></li>
-                <li><a href="https://www.w3schools.com/">RESUME</a></li>
             </ul>
-        </header>
-        <div id="aboutme">
+    </header>
+        <div id="aboutMe" class="content">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet mauris ligula. Vestibulum ante ipsum primis
-                in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur id arcu mollis, tristique sem sed, tristique orci.
-                Etiam in risus in magna bibendum posuere eget in orci. Nullam facilisis risus sem, nec fermentum purus ornare a. Donec
-                eget tellus dignissim, feugiat justo in, sagittis felis. Quisque auctor imperdiet ex vel eleifend. Duis porttitor
-                malesuada fringilla. Integer maximus, justo elementum bibendum rhoncus, libero erat rhoncus urna, iaculis mattis magna
-                elit at nulla. Vivamus suscipit ante non suscipit dignissim. Sed porttitor lorem in lorem laoreet commodo. Integer non
-                condimentum nibh. Pellentesque tincidunt gravida ante, et euismod leo. Phasellus varius nisl non risus rutrum, non
-                mollis erat eleifend.
+            Hello my name is Justin Bush. I am studying to become a Web Developer. I hope to earn my certificate from University of Texas and move to Austin. 
 
             </p> 
         </div>
 
-        <div id="projects">
+        <div id="projects" class="content">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet mauris ligula. Vestibulum ante ipsum primis
-                in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur id arcu mollis, tristique sem sed, tristique orci.
-                Etiam in risus in magna bibendum posuere eget in orci. Nullam facilisis risus sem, nec fermentum purus ornare a. Donec
-                eget tellus dignissim, feugiat justo in, sagittis felis. Quisque auctor imperdiet ex vel eleifend. Duis porttitor
-                malesuada fringilla. Integer maximus, justo elementum bibendum rhoncus, libero erat rhoncus urna, iaculis mattis magna
-                elit at nulla. Vivamus suscipit ante non suscipit dignissim. Sed porttitor lorem in lorem laoreet commodo. Integer non
-                condimentum nibh. Pellentesque tincidunt gravida ante, et euismod leo. Phasellus varius nisl non risus rutrum, non
-                mollis erat eleifend.
-
+                Here are a few projects ive been working on
+                <ul id="sampleWork">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
             </p>
         </div>
-        <div id="contact">
+        <footer id="footer">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet mauris ligula. Vestibulum ante ipsum primis
-                in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur id arcu mollis, tristique sem sed, tristique orci.
-                Etiam in risus in magna bibendum posuere eget in orci. Nullam facilisis risus sem, nec fermentum purus ornare a. Donec
-                eget tellus dignissim, feugiat justo in, sagittis felis. Quisque auctor imperdiet ex vel eleifend. Duis porttitor
-                malesuada fringilla. Integer maximus, justo elementum bibendum rhoncus, libero erat rhoncus urna, iaculis mattis magna
-                elit at nulla. Vivamus suscipit ante non suscipit dignissim. Sed porttitor lorem in lorem laoreet commodo. Integer non
-                condimentum nibh. Pellentesque tincidunt gravida ante, et euismod leo. Phasellus varius nisl non risus rutrum, non
-                mollis erat eleifend.
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-envelope"></a>
 
             </p>
-        </div>
-        <div id="resume">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet mauris ligula. Vestibulum ante ipsum primis
-                in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur id arcu mollis, tristique sem sed, tristique orci.
-                Etiam in risus in magna bibendum posuere eget in orci. Nullam facilisis risus sem, nec fermentum purus ornare a. Donec
-                eget tellus dignissim, feugiat justo in, sagittis felis. Quisque auctor imperdiet ex vel eleifend. Duis porttitor
-                malesuada fringilla. Integer maximus, justo elementum bibendum rhoncus, libero erat rhoncus urna, iaculis mattis magna
-                elit at nulla. Vivamus suscipit ante non suscipit dignissim. Sed porttitor lorem in lorem laoreet commodo. Integer non
-                condimentum nibh. Pellentesque tincidunt gravida ante, et euismod leo. Phasellus varius nisl non risus rutrum, non
-                mollis erat eleifend.
-
-            </p>
-        </div>
+        </footer>
+    <script src="myscripts.js"></script>
 </body>
 
 </html>
